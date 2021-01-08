@@ -8,4 +8,8 @@ def home(request):
 
 def products(request):
     context = {}
-    return render(request, 'website/products.html', context)    
+    return render(request, 'website/products.html', context)  
+    
+def people(request):
+    context = {}
+    return render(request, 'website/people.html', context)   
